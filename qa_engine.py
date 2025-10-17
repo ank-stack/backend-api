@@ -9,7 +9,7 @@ from google import genai
 from google.genai import types
 
 # Configure client (uses env var GOOGLE_API_KEY or application default credentials)
-client = genai.Client(api_key="AIzaSyCN5axYRnC1iSV1x3Tz0iIkkuuKy_IKp7w")
+client = genai.Client(api_key="")
 
 # Default model — change to whatever is available to you
 DEFAULT_MODEL = "gemini-2.0-flash"
@@ -132,3 +132,4 @@ if __name__ == "__main__":
     opts = ["Steve Jobs", "James Gosling", "Dennis Ritchie", "Rasmus Lerdorf"]
     out = get_answer_from_gemini(q, opts)
     print("Result:", out)
+
