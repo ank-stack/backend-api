@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+requests
+gradio_client
+google-genai
